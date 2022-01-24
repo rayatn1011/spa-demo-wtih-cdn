@@ -1,0 +1,12 @@
+.btn {
+    border: 1px solid;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    @media (min-width: $md) {
+    }
+    @media (min-width: $lg) {
+        display: inline-block;
+        padding: 0.5rem 2rem;
+    }
+}
