@@ -1,4 +1,6 @@
-@import './_variable.scss';
-@import './_components.scss';
-@import './_layout.scss';
-@import './_print.scss';
+@import './_reset-css.scss'; // 清除瀏覽器預設
+@import './_global-default.scss'; // 設定全域預設值
+@import './_variable.scss'; // 變數
+@import './_components.scss'; // 組件
+@import './_layout.scss'; // 頁面架構
+@import './_print.scss'; // 列印用

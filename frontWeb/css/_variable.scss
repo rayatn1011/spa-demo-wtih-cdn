@@ -1,2 +1,14 @@
 $md: 768px;
 $lg: 1024px;
+$fs: 1rem;
+
+@mixin md {
+    @media (min-width: $md) {
+        @content;
+    }
+}
+@mixin lg {
+    @media (min-width: $lg) {
+        @content;
+    }
+}

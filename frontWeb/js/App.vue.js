@@ -6,6 +6,7 @@ export const App = {
     <the-header></the-header>
     <main>
         <router-view></router-view>
+        <button type="button" class="btn">123</button>
     </main>
     <the-footer></the-footer>
     `,
