@@ -52,9 +52,6 @@ export const auth = {
             } catch (error) {
                 console.error(error);
                 alert('登入無回應');
-            } finally {
-                dispatch('getUserInfo');
-                dispatch('getUserFunctions');
             }
         },
         async logout(context) {
@@ -63,13 +60,10 @@ export const auth = {
                     method: 'get',
                     url: 'logout',
                 })
-                context.commit('setIsLogin', !response.data.succ)
+                context.commit('setIsLogin', !response.data.succ);
             } catch (error) {
                 console.error(error);
                 alert('登出無回應');
-            } finally {
-                dispatch('getUserInfo');
-                dispatch('getUserFunctions');
             }
         },
     }
