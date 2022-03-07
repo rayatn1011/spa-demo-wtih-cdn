@@ -1,7 +1,7 @@
 $md: 768px;
 $lg: 1024px;
 $fs: 1rem;
-
+$gray-light: #f5f5f5;
 @mixin md {
     @media (min-width: $md) {
         @content;

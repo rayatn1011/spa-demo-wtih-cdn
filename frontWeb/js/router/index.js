@@ -6,12 +6,12 @@ export const router = VueRouter.createRouter({
     routes: [
         {
             path: '/',
-            component: () => import('./views/Home.vue.js'),
+            component: () => import('../views/Home.vue.js'),
         },
         {
             path: '/gis',
-            component: () => import('./views/gis/gis.vue.js'),
-            meta: { requiresAuth: true }
+            component: () => import('../views/Gis.vue.js'),
+            meta: { requiresAuth: false }
         },
         // { 
         //     path: '/name-subname', 
@@ -21,7 +21,7 @@ export const router = VueRouter.createRouter({
         {
             path: '/:pathMatch(.*)*',
             name: 'NotFound',
-            component: () => import('./views/NotFound.vue.js')
+            component: () => import('../views/NotFound.vue.js')
         }
     ],
 })

@@ -2,7 +2,7 @@
     display: block;
     width: 100%;
     border: 1px solid #CCC;
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 1rem;
     border-radius: 0.25rem;
     text-align: center;
     background-color: #FFF;
@@ -12,6 +12,5 @@
     @include lg {
         display: inline-block;
         width: auto;
-        padding: 0.5rem 2rem;
     }
 }

@@ -1,0 +1,56 @@
+#gis {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    > #gisFooterBar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 2rem;
+        padding: 0.25rem 1rem;
+        color: #eee;
+        background: #17518bcc;
+        z-index: 10;
+
+        #scaleLine .ol-scale-line {
+            background: none;
+            position: relative;
+            left: 0;
+            bottom: 0;
+        }
+
+        #mousePosition {
+            display: flex;
+            gap: 2rem;
+            width: 560px;
+            font-size: 0.875rem;
+            > div {
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    }
+
+    > #gisRightControler {
+        position: absolute;
+        z-index: 10;
+    }
+
+    > #gisFooterControler {
+        position: absolute;
+        right: 0;
+        bottom: 2rem;
+        z-index: 10;
+
+        .items {
+            display: flex;
+        }
+    }
+}

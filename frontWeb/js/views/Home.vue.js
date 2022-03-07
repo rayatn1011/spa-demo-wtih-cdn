@@ -2,14 +2,13 @@ export default {
     name: 'Home',
     template: `
     首頁
-    <button type="button" class="btn" @click="loginTestUser">login</button>
-    <button type="button" class="btn" @click="logoutTestUser">logout</button>
     `,
     components: {
     },
     setup() {
         const { ref, reactive, onMounted, computed, watch, inject } = Vue;
-        const { useRouter, useRoute } = VueRouter;
+        const router = VueRouter.useRouter();
+        const route = VueRouter.useRoute()
         const store = Vuex.useStore();
 
         const getAuthData = async () => {

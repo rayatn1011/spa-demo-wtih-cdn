@@ -8,7 +8,7 @@ const host = {
 const authAPI = axios.create({
     baseURL: `${host.local}/backstage/auth/`,
     headers: { "Content-Type": "application/json", "Cache-Control": "no-cache" },
-    timeout: 1000,
+    timeout: 10000,
 });
 
 export {

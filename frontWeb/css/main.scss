@@ -1,6 +1,10 @@
-@import './_reset-css.scss'; // 清除瀏覽器預設
-@import './_global-default.scss'; // 設定全域預設值
-@import './_variable.scss'; // 變數
-@import './_components.scss'; // 組件
-@import './_layout.scss'; // 頁面架構
-@import './_print.scss'; // 列印用
+// untils
+@import './utils/_reset-css.scss'; // 清除瀏覽器預設
+@import './utils/_global-default.scss'; // 設定全域預設值
+@import './utils/_variable.scss'; // 變數
+@import './utils/_components.scss'; // 組件
+@import './utils/_layout.scss'; // 頁面架構
+@import './utils/_print.scss'; // 列印用
+
+// views
+@import './views/_gis.scss'
