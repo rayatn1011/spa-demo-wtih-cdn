@@ -1,4 +1,4 @@
-# FrontEnd SPA Structure with CDN - Example
+# SPA-Demo-Wih-CDN
 
 ## Use
 
