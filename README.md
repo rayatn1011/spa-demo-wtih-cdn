@@ -1,4 +1,4 @@
-# SPA-Demo-Wih-CDN
+# spa-demo-with-cdn
 
 ## Use
 
